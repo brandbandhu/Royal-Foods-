@@ -8,7 +8,8 @@ export const SITE = {
   whatsapp: "919822080115",
   email: "royalfoods8@email.com",
   address: "MIT ADT University, Loni Kalbhor, Pune, Maharashtra 412201",
-  mapUrl: "https://www.google.com/maps?q=MIT+ADT+University+Loni+Kalbhor+Pune+Maharashtra+412201&output=embed",
+  mapUrl:
+    "https://www.google.com/maps?q=MIT+ADT+University+Loni+Kalbhor+Pune+Maharashtra+412201&output=embed",
   director: "Shri Ravindra Vitthal Deshmukh",
   experience: "25+",
   dailyStudents: "2200-2500",
@@ -83,14 +84,46 @@ export const SERVICES = [
 ] as const;
 
 export const FACILITIES = [
-  { title: "MIT ADT University", icon: "GraduationCap", desc: "Serving educational institution dining needs at Loni Kalbhor, Pune." },
-  { title: "Hostel Mess", icon: "UtensilsCrossed", desc: "Hygienic, nutritious daily meals for resident students." },
-  { title: "Student Dining Areas", icon: "Users", desc: "Smooth dining operations for 2200-2500 students daily." },
-  { title: "Institutional Kitchens", icon: "ChefHat", desc: "Clean kitchens, trained staff, and regular supervision." },
-  { title: "Seminar Catering", icon: "Building2", desc: "Refreshments and meals for institutional seminars and meetings." },
-  { title: "Bulk Meal Supply", icon: "PartyPopper", desc: "Large-scale food preparation with consistent taste and quality." },
-  { title: "Meal Planning", icon: "Leaf", desc: "Balanced menus designed around health, nutrition, and satisfaction." },
-  { title: "Quality Control", icon: "ShieldCheck", desc: "Strict hygiene protocols and checks through food preparation." },
+  {
+    title: "MIT ADT University",
+    icon: "GraduationCap",
+    desc: "Serving educational institution dining needs at Loni Kalbhor, Pune.",
+  },
+  {
+    title: "Hostel Mess",
+    icon: "UtensilsCrossed",
+    desc: "Hygienic, nutritious daily meals for resident students.",
+  },
+  {
+    title: "Student Dining Areas",
+    icon: "Users",
+    desc: "Smooth dining operations for 2200-2500 students daily.",
+  },
+  {
+    title: "Institutional Kitchens",
+    icon: "ChefHat",
+    desc: "Clean kitchens, trained staff, and regular supervision.",
+  },
+  {
+    title: "Seminar Catering",
+    icon: "Building2",
+    desc: "Refreshments and meals for institutional seminars and meetings.",
+  },
+  {
+    title: "Bulk Meal Supply",
+    icon: "PartyPopper",
+    desc: "Large-scale food preparation with consistent taste and quality.",
+  },
+  {
+    title: "Meal Planning",
+    icon: "Leaf",
+    desc: "Balanced menus designed around health, nutrition, and satisfaction.",
+  },
+  {
+    title: "Quality Control",
+    icon: "ShieldCheck",
+    desc: "Strict hygiene protocols and checks through food preparation.",
+  },
 ];
 
 export const OPERATIONAL_STRENGTH = [
